@@ -1,0 +1,26 @@
+{
+    "server": {
+        "port": 8003
+    },
+    "app": {
+        "apiPrefix" : "",
+        "url": "http://localhost"
+    },
+    "credentials": {
+        "apikey": "eXXZtuNnobuvteh5/ZWNZInXU2etp3O1JnRuM2pJGiI=",
+        "appId": "st-06525b6f-bab3-5f0b-b9e0-22246e4ad9b2"
+
+    },
+    "redis": {
+        "options": {
+            "host": "localhost",
+            "port": 6379
+        },
+        "available": true
+    },
+    "examples" : {
+        "mockServicesHost"  : "http://localhost:8004"
+    },
+    "supportsMessageAck": true,
+    "languages":["en","de"]
+}
